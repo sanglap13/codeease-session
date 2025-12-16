@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 /* Global Styles */
+=======
+>>>>>>> Stashed changes
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,7 @@
 }
 
 body {
+<<<<<<< Updated upstream
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
@@ -34,3 +38,30 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.5);
 }
+=======
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Remove default button styles */
+button {
+  font-family: inherit;
+}
+
+/* Ensure full height */
+#root {
+  min-height: 100vh;
+}
+>>>>>>> Stashed changes
