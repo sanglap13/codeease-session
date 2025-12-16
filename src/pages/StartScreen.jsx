@@ -15,19 +15,19 @@ const StartScreen = () => {
       <p className="subtitle">Select your difficulty level to start:</p>
       <div className="buttonContainer">
         <button
-          className="button"
+          className="difficulty-button easy"
           onClick={() => handleDifficultySelect("Easy")}
         >
           Easy
         </button>
         <button
-          className="button"
+          className="difficulty-button medium"
           onClick={() => handleDifficultySelect("Medium")}
         >
           Medium
         </button>
         <button
-          className="button"
+          className="difficulty-button hard"
           onClick={() => handleDifficultySelect("Hard")}
         >
           Hard

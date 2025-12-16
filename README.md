@@ -1,16 +1,73 @@
-# React + Vite
+# React Game Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive game application built with React and Vite. Features a beautiful home screen with difficulty selection and a game screen that displays the selected difficulty level.
 
-Currently, two official plugins are available:
+## 🎮 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Beautiful UI**: Modern gradient backgrounds with glassmorphism effects
+- **Responsive Design**: Works perfectly on desktop and mobile devices
+- **Smooth Animations**: Fade-in effects and hover animations
+- **Difficulty Selection**: Three difficulty levels (Easy, Medium, Hard) with distinct colors
+- **Easy Navigation**: Simple routing between home and game screens
 
-## React Compiler
+## 🚀 Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Option 1: One-Click Run
+```bash
+./run.sh
+```
 
-## Expanding the ESLint configuration
+### Option 2: Manual Setup
+```bash
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Start development server
+npm run dev
+```
+
+## 🎨 UI Enhancements
+
+### Start Screen
+- Beautiful gradient background
+- Animated title and subtitle
+- Color-coded difficulty buttons (Green=Easy, Orange=Medium, Red=Hard)
+- Hover effects with smooth transitions
+- Responsive design for all screen sizes
+
+### Game Screen
+- Glassmorphism design with backdrop blur
+- Difficulty display with color-coded badges
+- Back to Home button with hover effects
+- Smooth animations and transitions
+
+## 📱 Responsive Design
+
+The application is fully responsive and works great on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+## 🛠️ Technical Details
+
+- **Frontend**: React 19 with modern hooks
+- **Routing**: React Router DOM v7
+- **Build Tool**: Vite for fast development
+- **Styling**: CSS with modern features (backdrop-filter, gradients, animations)
+- **Deployment**: Ready for production with `npm run build`
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## 🎯 Game Logic
+
+The game logic remains exactly the same as the original:
+1. User sees home screen with difficulty selection
+2. Clicking a difficulty navigates to game screen
+3. Game screen displays the selected difficulty level
+
+All original functionality is preserved while enhancing the visual experience.
