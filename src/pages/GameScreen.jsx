@@ -1,17 +1,12 @@
 import React from "react";
-<<<<<<< Updated upstream
 import { useLocation, useNavigate } from "react-router-dom";
-=======
-import { useLocation } from "react-router-dom";
 import "./GameScreen.css";
->>>>>>> Stashed changes
 
 const GameScreen = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const difficulty = location.state?.difficulty || "Unknown";
 
-<<<<<<< Updated upstream
   const getDifficultyColor = (difficulty) => {
     switch (difficulty.toLowerCase()) {
       case "easy":
@@ -143,29 +138,6 @@ const GameScreen = () => {
           }
         }
       `}</style>
-=======
-  // Get difficulty level class for styling
-  const getDifficultyClass = () => {
-    return difficulty.toLowerCase();
-  };
-
-  return (
-    <div className="gameContainer">
-      <h1 className="gameTitle">Game Page</h1>
-      <p className="difficultyInfo">
-        Selected Difficulty:
-      </p>
-      <div className={`difficultyBadge ${getDifficultyClass()}`}>
-        {difficulty}
-      </div>
-      <div className="gameArea">
-        <div className="gameContent">
-          <p>🎮 Your game is ready to start!</p>
-          <p>Level: <strong>{difficulty}</strong></p>
-          <p>Get ready for the challenge ahead.</p>
-        </div>
-      </div>
->>>>>>> Stashed changes
     </div>
   );
 };
