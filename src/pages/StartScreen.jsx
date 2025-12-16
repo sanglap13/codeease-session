@@ -11,8 +11,8 @@ const StartScreen = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Welcome to the Game!</h1>
-      <p className="subtitle">Select your difficulty level to start:</p>
+      <h1 className="title">Welcome to the my profile!</h1>
+      <p className="subtitle">Md Ahmed Hassan </p>
       <div className="buttonContainer">
         <button
           className="button"
